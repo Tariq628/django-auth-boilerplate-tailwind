@@ -44,7 +44,7 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-ROOT_URLCONF = "APGENIX.urls"
+ROOT_URLCONF = "auth_project.urls"
 
 TEMPLATES = [
     {
@@ -62,7 +62,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = "APGENIX.wsgi.application"
+WSGI_APPLICATION = "auth_project.wsgi.application"
 
 
 # Database
